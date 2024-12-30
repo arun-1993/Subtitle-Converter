@@ -1,0 +1,29 @@
+{
+    "name": "subtitle-converter",
+    "author": "Arun Ravindran",
+    "version": "1.0.0",
+    "license": "ISC",
+    "description": "A simple tool to convert subtitles from one format to another",
+    "keywords": [
+        "subtitle",
+        "subtitles",
+        "srt",
+        "vtt"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "main": "",
+    "bin": {},
+    "files": [
+        "bin",
+        "lib"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    }
+}
