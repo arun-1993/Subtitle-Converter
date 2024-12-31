@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "noEmitOnError": true,
+        "outDir": ".",
+        "rootDir": "src",
+        "strict": true,
+        "target": "ES6"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
