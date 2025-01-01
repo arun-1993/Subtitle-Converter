@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { convertToSrt } from "./srt.js";
 import { getFormat, isFormatSupported, logError } from "./utils.js";
+import { convertToVtt } from "./vtt.js";
 
 const args = process.argv.slice(2);
 
@@ -32,6 +33,10 @@ let outputData: string;
 switch (outputFormat.toLowerCase()) {
     case "srt":
         outputData = convertToSrt(inputData, inputFormat);
+        break;
+
+    case "vtt":
+        outputData = convertToVtt(inputData, inputFormat);
         break;
 
     default:
