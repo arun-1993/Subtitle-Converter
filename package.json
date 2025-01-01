@@ -16,7 +16,9 @@
         "url": ""
     },
     "main": "",
-    "bin": {},
+    "bin": {
+        "convertsubtitle": "./bin/convertsubtitle"
+    },
     "files": [
         "bin",
         "lib",
