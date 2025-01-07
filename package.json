@@ -1,7 +1,7 @@
 {
     "name": "@arun-1993/subtitle-converter",
     "author": "Arun Ravindran",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "ISC",
     "description": "A simple tool to convert subtitles from one format to another",
     "keywords": [
