@@ -25,4 +25,4 @@ Once installed, you can use the following command to convert a subtitle :
 convertsubtitle sourcefile destinationfile
 ```
 
-If the destination file is not provided, the source file name will be used with the `srt` extension regardless of the source file's extension.
+If the destination file is not provided, the source file name will be used with the `srt` extension as the destination file regardless of the source file's extension.
