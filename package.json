@@ -1,6 +1,6 @@
 {
     "name": "@arun-1993/subtitle-converter",
-    "author": "Arun Ravindran",
+    "author": "Arun Ravindran <arun0306.r@gmail.com>",
     "version": "1.0.1",
     "license": "ISC",
     "description": "A simple tool to convert subtitles from one format to another",
@@ -15,7 +15,10 @@
         "type": "git",
         "url": "https://github.com/arun-1993/Subtitle-Converter"
     },
-    "main": "",
+    "bugs": {
+        "url": "https://github.com/arun-1993/Subtitle-Converter/issues",
+        "email": "arun0306.r@gmail.com"
+    },
     "bin": {
         "convertsubtitle": "bin/convertsubtitle"
     },
