@@ -9,10 +9,13 @@ export function isFormatSupported(format: string): boolean {
     const supportedFormatList = ["srt", "vtt"];
 
     return supportedFormatList.some(
-        (supportedFormat) => supportedFormat.localeCompare(format) === 0
+        (supportedFormat) =>
+            supportedFormat.localeCompare(format, "en", {
+                sensitivity: "base",
+            }) === 0
     );
 }
 
 export function logError(message: string): void {
-    console.log(styleText(["red", "bgWhiteBright"], `Error: ${message}`));
+    console.error(styleText(["red", "bgWhiteBright"], `Error: ${message}`));
 }
