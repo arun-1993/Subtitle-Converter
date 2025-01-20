@@ -14,7 +14,12 @@ if (inputFormat === undefined || !isFormatSupported(inputFormat)) {
 }
 
 const outputFile =
-    args[1] ?? args[0].split(".").slice(0, -1).concat("srt").join(".");
+    args[1] ??
+    args[0]
+        .split(".")
+        .slice(0, -1)
+        .concat(inputFormat === "srt" ? "vtt" : "srt")
+        .join(".");
 const outputFormat = getFormat(outputFile);
 
 if (outputFormat === undefined || !isFormatSupported(outputFormat)) {
